@@ -1,0 +1,146 @@
+{
+    "Comprobante": {
+      "Version":"4.0",
+      "Serie": "LC-J",
+      "Folio": "LC35",
+      "Fecha": "2022-05-01T17:59:46",
+      "FormaPago": "01",
+      "NoCertificado": "30001000000400002434",
+      "SubTotal": "360.00",
+      "Descuento":"0",
+      "Moneda": "MXN",
+      "TipoCambio": "1",
+      "Total": "417.60",
+      "TipoDeComprobante": "I",
+      "Exportacion":"01",
+      "MetodoPago": "PUE",
+      "LugarExpedicion": "01000",
+      "Emisor": {
+        "Rfc": "EKU9003173C9",
+        "Nombre": "ESCUELA KEMPER URGATE",
+        "RegimenFiscal": "601"
+      },
+      "Receptor": {
+        "Rfc": "XAXX010101000",
+        "Nombre": "Publico en General",
+        "DomicilioFiscalReceptor":"01000",
+        "RegimenFiscalReceptor":"616",
+        "UsoCFDI": "S01"
+      },
+      "Conceptos": [
+        {
+          "ClaveProdServ": "43211600",
+          "NoIdentificacion": "352",
+          "Cantidad": "1",
+          "ClaveUnidad": "KGM",
+          "Unidad": "KILOGRAMO",
+          "Descripcion": "CABLE HDMI 1MT",
+          "ValorUnitario": "70.00",
+          "Importe": "70.00",
+          "Descuento":"0",
+          "ObjetoImp":"02",
+          "Impuestos":
+          {
+            "Traslados": [
+              {
+                "Base": "70.00",
+                "Impuesto": "002",
+                "TipoFactor": "Tasa",
+                "TasaOCuota": "0.160000",
+                "Importe": "11.20"
+              }
+            ]
+          }
+        },
+        {
+            "ClaveProdServ": "43211600",
+            "NoIdentificacion": "352",
+            "Cantidad": "1",
+            "ClaveUnidad": "KGM",
+            "Unidad": "KILOGRAMO",
+            "Descripcion": "Producto",
+            "ValorUnitario": "120.00",
+            "Importe": "120.00",
+            "Descuento":"0",
+            "ObjetoImp":"02",
+            "Impuestos":
+            {
+              "Traslados": [
+                {
+                  "Base": "120.00",
+                  "Impuesto": "002",
+                  "TipoFactor": "Tasa",
+                  "TasaOCuota": "0.160000",
+                  "Importe": "19.20"
+                }
+              ]
+            }
+          },
+          {
+            "ClaveProdServ": "43211600",
+            "NoIdentificacion": "352",
+            "Cantidad": "1",
+            "ClaveUnidad": "KGM",
+            "Unidad": "KILOGRAMO",
+            "Descripcion": "Producto",
+            "ValorUnitario": "120.00",
+            "Importe": "120.00",
+            "Descuento":"0",
+            "ObjetoImp":"02",
+            "Impuestos":
+            {
+              "Traslados": [
+                {
+                  "Base": "120.00",
+                  "Impuesto": "002",
+                  "TipoFactor": "Tasa",
+                  "TasaOCuota": "0.160000",
+                  "Importe": "19.20"
+                }
+              ]
+            }
+          },
+          {
+            "ClaveProdServ": "43211600",
+            "NoIdentificacion": "352",
+            "Cantidad": "1",
+            "ClaveUnidad": "KGM",
+            "Unidad": "KILOGRAMO",
+            "Descripcion": "CABLE MICKEY DE CORRIENTE",
+            "ValorUnitario": "50.00",
+            "Importe": "50.00",
+            "Descuento":"0",
+            "ObjetoImp":"02",
+            "Impuestos":
+            {
+              "Traslados": [
+                {
+                  "Base": "50.00",
+                  "Impuesto": "002",
+                  "TipoFactor": "Tasa",
+                  "TasaOCuota": "0.160000",
+                  "Importe": "8.00"
+                }
+              ]
+            }
+          }
+          
+      ],
+      "Impuestos": {
+        "TotalImpuestosTrasladados": "57.60",
+        "Traslados": [
+          {
+            "Base":"360.00",
+            "Impuesto": "002",
+            "TipoFactor": "Tasa",
+            "TasaOCuota": "0.160000",
+            "Importe": "57.60"
+          }
+        ]
+      }
+    },
+    "CamposPDF": {
+      "tipoComprobante": "FACTURA",
+      "Comentarios": "Ninguno"
+    }
+}

@@ -1,0 +1,25 @@
+admin/config/db.php
+admin/core/controller/Database.php
+admin/core/app/view/conexion.php  
+admin/core/app/apps/Docentes/conectar.php
+
+
+alumnos/core/controller/Database.php  
+parent/core/controller/Database.php 
+teacher/core/app/view/conexion.php 
+teacher/core/controller/Database.php
+
+admin/storage/cancelaciones
+admin/storage/factura
+admin/storage/recibos
+admin/storage/tickets
+admin/storage/tickets
+alumnos/core/app/repository/
+
+# facturacion Archivos requeridos
+admin/tim/test4.php 
+admin/tim/rsc
+admin/tim/prueba4.0.php 
+
+# Keys Conekta pendiente en el proceso se separan en un solo archivo
+keys_conekta

@@ -1,0 +1,14 @@
+[26-Nov-2020 22:06:18 America/Mexico_City] PHP Notice:  Undefined index: marca in /home2/zettatro/public_html/UAT/RecibosCH/pdf/documentos/html/Reporte_Cotizacion.php on line 146
+[26-Nov-2020 22:06:18 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/zettatro/public_html/UAT/RecibosCH/pdf/_class/locale.class.php on line 68
+[26-Nov-2020 22:06:18 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/zettatro/public_html/UAT/RecibosCH/pdf/_class/locale.class.php on line 68
+[26-Nov-2020 22:06:18 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/zettatro/public_html/UAT/RecibosCH/pdf/html2pdf.class.php on line 1317
+[26-Nov-2020 22:06:18 America/Mexico_City] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERROR n°6</span><br>Fichero : /home2/zettatro/public_html/UAT/RecibosCH/pdf/html2pdf.class.php<br>Línea : 1320<br><br>Imposible cargar la imagen <b>../../../img/logo/logoRetina.png</b>
+  thrown in /home2/zettatro/public_html/UAT/RecibosCH/pdf/html2pdf.class.php on line 1320
+[26-Nov-2020 22:17:23 America/Mexico_City] PHP Notice:  Undefined index: marca in /home2/zettatro/public_html/UAT/RecibosCH/pdf/documentos/html/Reporte_Cotizacion.php on line 146
+[26-Nov-2020 22:17:23 America/Mexico_City] PHP Notice:  Undefined index: marca in /home2/zettatro/public_html/UAT/RecibosCH/pdf/documentos/html/Reporte_Cotizacion.php on line 146
+[26-Nov-2020 22:17:23 America/Mexico_City] PHP Notice:  Undefined index: marca in /home2/zettatro/public_html/UAT/RecibosCH/pdf/documentos/html/Reporte_Cotizacion.php on line 146
+[26-Nov-2020 22:17:23 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/zettatro/public_html/UAT/RecibosCH/pdf/_class/locale.class.php on line 68
+[26-Nov-2020 22:17:23 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/zettatro/public_html/UAT/RecibosCH/pdf/_class/locale.class.php on line 68
+[26-Nov-2020 22:17:23 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/zettatro/public_html/UAT/RecibosCH/pdf/html2pdf.class.php on line 1317
+[26-Nov-2020 22:17:23 America/Mexico_City] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERROR n°6</span><br>Fichero : /home2/zettatro/public_html/UAT/RecibosCH/pdf/html2pdf.class.php<br>Línea : 1320<br><br>Imposible cargar la imagen <b>../../../img/logo/logoRetina.png</b>
+  thrown in /home2/zettatro/public_html/UAT/RecibosCH/pdf/html2pdf.class.php on line 1320
