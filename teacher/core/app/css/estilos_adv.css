@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'dinregular';
+    src: url('../fonts/din-webfont.eot');
+    src: url('../fonts/din-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din-webfont.woff') format('woff'),
+         url('../fonts/din-webfont.ttf') format('truetype'),
+         url('../fonts/din-webfont.svg#dinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Reset css*/
+.container_principal{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}  
+
+.container_principal_asignarcert{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}  
+
+	
+.titulo{
+	width:auto;
+	height:auto;
+	font:20px 'dinregular', Arial, Helvetica;
+	color:#333;
+	font-weight:bold;
+	text-transform:uppercase;
+	}	
+		
+
+
+
+}
+/* -----------------------Desde Aqui-------------------------- */
+
+
+
+
+
+/* -----------------------Hasta Aqui-------------------------- */
+
+
+
