@@ -21,5 +21,8 @@ admin/tim/test4.php
 admin/tim/rsc
 admin/tim/prueba4.0.php 
 
+alumnos/seguridad.html
+teacher/seguridad.html
+
 # Keys Conekta pendiente en el proceso se separan en un solo archivo
 keys_conekta

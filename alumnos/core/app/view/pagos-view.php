@@ -186,7 +186,7 @@ if (isset($_GET["code"])) {
 
                 </dl>
                 
-                <dl class="row">
+                <dl class="row" hidden>
                   	&nbsp;&nbsp;&nbsp;&nbsp;
                 	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal"><i class="glyphicon glyphicon-usd"></i>
                 		Realizar Pago con Tarjeta
