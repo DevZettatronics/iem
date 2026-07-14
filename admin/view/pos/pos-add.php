@@ -99,7 +99,7 @@
                                     <select required class="form-control select2 " name="person_id" id="person_id"
                                         onchange="mostrar_productos_plan_pago()">
                                         <option value="default" selected>Selecciona Estudiante</option>
-                                        <?php $sql_user = mysqli_query($con, "SELECT * FROM person");
+                                        <?php $sql_user = mysqli_query($con, "SELECT * FROM person WHERE kind = 3");
                                         while ($rw = mysqli_fetch_array($sql_user)) {
                                             ?>
                                             <option value="<?php echo $rw['id'] ?>"><?php echo $rw['code'] . " - " . $rw['lastname'] . " " . $rw['name'] ?></option>

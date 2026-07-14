@@ -118,7 +118,8 @@ class PlandepagoData
 				pp.vinculacion,
 				pp.kind_cancelacion,
 				COALESCE(per.name, p.name_periodo) AS periodo_name,
-				t.grade AS carrera_grade,
+				-- t.grade AS carrera_grade,
+				t.name AS carrera_grade,
 				p.code AS alumno_code,
 				p.name AS alumno_name,
 				p.lastname AS alumno_lastname,
@@ -131,7 +132,8 @@ class PlandepagoData
 			LEFT JOIN period per 
 				ON ((p.name_periodo REGEXP '^[0-9]+$' AND p.name_periodo = per.id)
 					OR (p.name_periodo = per.name))
-			LEFT JOIN team t ON p.carrera = t.id
+			-- LEFT JOIN team t ON p.carrera = t.id
+			LEFT JOIN program t ON p.carrera = t.id
 			LEFT JOIN becas b1 ON p.beca = b1.id
 			LEFT JOIN becas b2 ON p.promocion = b2.id
 			WHERE DATE(pp.date_created) >= '{$dates['start_date']}'
